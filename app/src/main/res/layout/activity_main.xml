@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.ahmeddinar.justbustrackerserver.MainActivity">
+
+
+    <TextView
+        android:background="@drawable/textview_border"
+        android:padding="12dp"
+        android:layout_width="350dp"
+        android:layout_height="330dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="GPS Tracker offline."
+        android:id="@+id/updateText"
+        android:layout_centerInParent="true"
+        android:layout_weight="0.27" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start BroadCast Location"
+        android:id="@+id/button"
+        android:layout_below="@id/updateText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textSize="18dp"
+        android:background="@drawable/textview_border"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Latitude    : --\nLongitude : --"
+        android:id="@+id/infoText"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
