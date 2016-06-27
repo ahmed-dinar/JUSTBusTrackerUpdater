@@ -1,4 +1,4 @@
-package com.ahmeddinar.justbustrackerserver;
+package com.ahmeddinar.JUSTBusTrackerUpdater;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.ahmeddinar.justbustrackerserver.splashscreen;
+package com.ahmeddinar.JUSTBusTrackerUpdater.splashscreen;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -6,9 +6,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.ahmeddinar.justbustrackerserver.MainActivity;
-import com.ahmeddinar.justbustrackerserver.R;
-import com.ahmeddinar.justbustrackerserver.utils.ConnectionUtils;
+import com.ahmeddinar.JUSTBusTrackerUpdater.MainActivity;
+import com.ahmeddinar.JUSTBusTrackerUpdater.R;
+import com.ahmeddinar.JUSTBusTrackerUpdater.utils.ConnectionUtils;
 
 /**
  * Created by Ahmed Dinar on 6/28/2016.

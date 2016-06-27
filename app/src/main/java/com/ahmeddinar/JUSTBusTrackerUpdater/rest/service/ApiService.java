@@ -1,7 +1,7 @@
-package com.ahmeddinar.justbustrackerserver.rest.service;
+package com.ahmeddinar.JUSTBusTrackerUpdater.rest.service;
 
-import com.ahmeddinar.justbustrackerserver.rest.model.BusLocation;
-import com.ahmeddinar.justbustrackerserver.rest.model.PostResponse;
+import com.ahmeddinar.JUSTBusTrackerUpdater.rest.model.BusLocation;
+import com.ahmeddinar.JUSTBusTrackerUpdater.rest.model.PostResponse;
 
 import retrofit.Call;
 import retrofit.http.Body;

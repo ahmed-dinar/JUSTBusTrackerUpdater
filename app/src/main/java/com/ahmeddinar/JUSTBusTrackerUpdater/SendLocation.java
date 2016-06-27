@@ -1,8 +1,8 @@
-package com.ahmeddinar.justbustrackerserver;
+package com.ahmeddinar.JUSTBusTrackerUpdater;
 
 import android.os.AsyncTask;
 
-import com.ahmeddinar.justbustrackerserver.Interfaces.AsyncResponse;
+import com.ahmeddinar.JUSTBusTrackerUpdater.Interfaces.AsyncResponse;
 
 import org.json.JSONException;
 import org.json.JSONObject;

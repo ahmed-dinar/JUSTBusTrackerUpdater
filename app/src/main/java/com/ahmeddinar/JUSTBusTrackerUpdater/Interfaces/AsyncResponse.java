@@ -1,4 +1,4 @@
-package com.ahmeddinar.justbustrackerserver.Interfaces;
+package com.ahmeddinar.JUSTBusTrackerUpdater.Interfaces;
 
 /**
  * Created by Ahmed Dinar on 6/22/2016.

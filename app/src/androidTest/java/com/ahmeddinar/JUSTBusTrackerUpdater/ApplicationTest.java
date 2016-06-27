@@ -1,4 +1,4 @@
-package com.ahmeddinar.justbustrackerserver;
+package com.ahmeddinar.JUSTBusTrackerUpdater;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

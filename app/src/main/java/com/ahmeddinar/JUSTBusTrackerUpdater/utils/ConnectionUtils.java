@@ -1,9 +1,7 @@
-package com.ahmeddinar.justbustrackerserver.utils;
+package com.ahmeddinar.JUSTBusTrackerUpdater.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.widget.Toast;
 
 /**
  * Created by Ahmed Dinar on 6/25/2016.

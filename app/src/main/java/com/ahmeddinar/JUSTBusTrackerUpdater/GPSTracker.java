@@ -1,4 +1,4 @@
-package com.ahmeddinar.justbustrackerserver;
+package com.ahmeddinar.JUSTBusTrackerUpdater;
 
 /**
  * Created by Ahmed Dinar on 6/22/2016.
@@ -14,7 +14,6 @@ import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
@@ -23,27 +22,13 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.ahmeddinar.justbustrackerserver.Interfaces.AsyncResponse;
-import com.ahmeddinar.justbustrackerserver.rest.RestCient;
-import com.ahmeddinar.justbustrackerserver.rest.model.BusLocation;
-import com.ahmeddinar.justbustrackerserver.rest.model.PostResponse;
-import com.ahmeddinar.justbustrackerserver.rest.service.ApiService;
+import com.ahmeddinar.JUSTBusTrackerUpdater.rest.RestCient;
+import com.ahmeddinar.JUSTBusTrackerUpdater.rest.model.BusLocation;
+import com.ahmeddinar.JUSTBusTrackerUpdater.rest.model.PostResponse;
+import com.ahmeddinar.JUSTBusTrackerUpdater.rest.service.ApiService;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.BufferedOutputStream;
-import java.io.BufferedReader;
-import java.io.DataInputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
 
 import retrofit.Call;
 import retrofit.Callback;

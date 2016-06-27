@@ -1,4 +1,4 @@
-package com.ahmeddinar.justbustrackerserver.rest.model;
+package com.ahmeddinar.JUSTBusTrackerUpdater.rest.model;
 
 /**
  * Created by Ahmed Dinar on 6/24/2016.

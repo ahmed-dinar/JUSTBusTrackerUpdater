@@ -1,6 +1,6 @@
-package com.ahmeddinar.justbustrackerserver.rest;
+package com.ahmeddinar.JUSTBusTrackerUpdater.rest;
 
-import com.ahmeddinar.justbustrackerserver.rest.service.ApiService;
+import com.ahmeddinar.JUSTBusTrackerUpdater.rest.service.ApiService;
 import com.squareup.okhttp.Interceptor;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
