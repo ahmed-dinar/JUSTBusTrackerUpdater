@@ -1,18 +1,25 @@
 package com.ahmeddinar.justbustrackerserver;
 
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.net.ConnectivityManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+import com.ahmeddinar.justbustrackerserver.utils.ConnectionUtils;
 
+public class MainActivity extends AppCompatActivity {
 
     TextView updateInfo;
     TextView textUpdate;
-    Button button;
 
     GPSTracker gpsTracker;
 
@@ -22,20 +29,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
 
-        updateInfo = (TextView)findViewById(R.id.updateText);
-        textUpdate = (TextView)findViewById(R.id.infoText);
-        button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(this);
+        updateInfo = (TextView) findViewById(R.id.updateText);
+
+
+            updateInfo.setText("Starting GPS tracker...");
+            gpsTracker = new GPSTracker(this, this);
+
+
 
     }
 
-    @Override
-    public void onClick(View v) {
-        if(gpsTracker != null){
-            updateInfo.setText("Already Running");
-            return;
-        }
-        updateInfo.setText("Starting GPS tracker...");
-        gpsTracker = new GPSTracker(this,this);
-    }
+
 }
